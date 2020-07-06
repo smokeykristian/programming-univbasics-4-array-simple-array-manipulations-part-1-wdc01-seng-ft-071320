@@ -29,6 +29,3 @@ def shift_with_args(ice_cream_brands)
     brands_removed = ice_cream_brands.shift(2)
 end
 
-`rspec ./spec/intro_to_simple_array_manipulations_spec.rb:38 # using_pop decreases the length of the array by 1
-rspec ./spec/intro_to_simple_array_manipulations_spec.rb:52 # pop_with_args decreases the length of the array by 2
-rspec ./spec/intro_to_simple_array_manipulations_spec.rb:66 # using_shift decreases the length of the array by 1`
