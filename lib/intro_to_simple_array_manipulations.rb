@@ -14,9 +14,9 @@ def using_pop(continents)
     deleted_string = continents.pop
 end
 
- 
+def using_pop_with_args(dog_breeds)
     dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-    small_dogs = dog_breeds.pop(2)
+    small_dogs = using_pop_with_args.pop(2)
 
 
 def using_shift 
